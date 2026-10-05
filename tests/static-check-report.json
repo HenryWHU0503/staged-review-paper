@@ -1,0 +1,53 @@
+{
+  "version": "2.1.0",
+  "checked_on": "2026-10-05",
+  "check_type": "local_static_only",
+  "static_results": {
+    "all_files_nonempty": true,
+    "explicit_relative_references_exist": true,
+    "skill_and_templates_version_consistent": true,
+    "skill_frontmatter_and_state_yaml_parse": true,
+    "csv_headers_parse_unique_and_no_fabricated_rows": true,
+    "initial_next_action_null_and_approval_none": true,
+    "original_numbering_corrected": true,
+    "full_reading_definition_corrected": true,
+    "execution_and_completion_separated": true,
+    "abstract_default_postponed": true,
+    "behavior_cases_count": 15
+  },
+  "checked_relative_references": [
+    "assets/decision-log-template.csv",
+    "assets/journal-requirements-template.md",
+    "assets/project-brief-template.md",
+    "assets/project-state-template.yaml",
+    "assets/terminology-template.csv",
+    "assets/test-run-report-template.md",
+    "references/stage-templates.md",
+    "tests/acceptance-cases.md"
+  ],
+  "behavior_tests_status": "NOT_RUN",
+  "host_compatibility_status": "NOT_VERIFIED",
+  "real_paper_project_status": "NOT_RUN",
+  "limitations": [
+    "仅本地文件静态检查",
+    "不证明模型实际遵守暂停与授权规则",
+    "不证明文献真实或稿件达到投稿要求"
+  ],
+  "content_sha256": {
+    "CHANGELOG.md": "b527f5c970152b94f1fc2a8f2e05c4144da945413ca6378de5ecca60e9a915bb",
+    "README.md": "94f4f34d79cc8a54a04954b042526f56f55aa4beada3b9d569a4a97656247196",
+    "SKILL.md": "cf039a90db4c605bc4d09b0e041be9f4f32bf075ac206664048d87c9bbbeacfc",
+    "assets/claim-evidence-template.csv": "0ddef84405c7db4750802a3129dc493997c6303437bdeb675207858436c7acd4",
+    "assets/decision-log-template.csv": "d4c3d6966ba874d5b54e5b51140d2b34bb8770e7b6e45a8924bf893fa5f6a9ec",
+    "assets/journal-requirements-template.md": "2d79e496a894e8483a5075a2151f1e5eaf21c88b9654c748198e092ffbc66b7b",
+    "assets/literature-matrix-template.csv": "24c74b52ae0871462883014070b253af4cc1e99d70442cddc116b9b1e4e4599c",
+    "assets/project-brief-template.md": "e949472c6f1b2602d0165602b632b2d8984827b96bee6fd91c92b38803ae3f29",
+    "assets/project-state-template.yaml": "856b197a5af8649bbf8453fd3d1c39c2d3c7ecc5f89700eaf26a79f676f4c1b6",
+    "assets/review-response-template.csv": "aba99b6c5bd88f33e4a0702e5a331e9d784962c7d268d6a500aad509bc1a92ac",
+    "assets/search-log-template.csv": "f89ba6ea8f614a38ad02bbe29ae5542894c352527ed2ba6f49a6ded7689eef41",
+    "assets/terminology-template.csv": "6a9823b878d4361dd98fb7cf52d1af6d5ca1139d76038ee3f70c5f6e0dfb4f57",
+    "assets/test-run-report-template.md": "185cc3e19cfb9c09f30c09505b38cfd52e958b551a335d7578953d21ba9eae2a",
+    "references/stage-templates.md": "8ad89333a02f563a5c0861f26117938f704a3da11551d12e18d3fde2ae3e5cfe",
+    "tests/acceptance-cases.md": "c964bdae403928485dda43211190add43d0106eb1a1601cfa09a0ef5415b4f3f"
+  }
+}
